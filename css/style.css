@@ -73,6 +73,10 @@ header .navbar ul li a{
     color: #fff;
 }
 
+header .navbar ul li a.active{
+    color: #F8B810;
+}
+
 header .navbar ul li a:hover{
     color: #F8B810;
 }
@@ -309,8 +313,9 @@ footer ul li a:hover{
         top: 10vh;
         left: -120%;
         width: 100%;
-        background-color: #F8B810;
+        background-color: #3b5d50fa;
         z-index: 999;
+        box-shadow: 1rem 2rem 1rem #3B5D50FA;
     }
 
     header .navbar ul{
@@ -323,12 +328,8 @@ footer ul li a:hover{
         margin: .5rem 0;
     }
 
-    header .navbar ul li a{
-        color: #fff;
-    }
-
     header .navbar ul li a:hover{
-        color: #3B5D50;
+        color: #F8B810;
     }
 
     .fa-times{
