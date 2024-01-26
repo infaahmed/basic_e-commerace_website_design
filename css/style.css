@@ -315,7 +315,7 @@ footer ul li a:hover{
         width: 100%;
         background-color: #3b5d50fa;
         z-index: 999;
-        box-shadow: 1rem 2rem 1rem #3B5D50FA;
+        /* box-shadow: 1rem 2rem 1rem #3B5D50FA; */
     }
 
     header .navbar ul{
